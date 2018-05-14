@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         if(x == 3)
         {
             print("cat :)");
+            print("We need to get started on this ASAP");
         }
     }
 
