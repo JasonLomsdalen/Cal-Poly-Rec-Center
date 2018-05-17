@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         
         //Test
         let x = 3;
+        var y: Int
         if(x == 3)
         {
             print("cat :)");
