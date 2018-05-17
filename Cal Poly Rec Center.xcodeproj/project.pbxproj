@@ -13,6 +13,7 @@
 		A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A394A7E120A4BC93006E1F82 /* Assets.xcassets */; };
 		A394A7E520A4BC93006E1F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */; };
 		E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */; };
+		E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A394A7E420A4BC93006E1F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A394A7E620A4BC93006E1F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewController.swift; sourceTree = "<group>"; };
+		E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A394A7DA20A4BC90006E1F82 /* AppDelegate.swift */,
 				A394A7DC20A4BC90006E1F82 /* ViewController.swift */,
 				A394A7DE20A4BC90006E1F82 /* Main.storyboard */,
+				E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */,
 				E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */,
 				A394A7E120A4BC93006E1F82 /* Assets.xcassets */,
 				A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */,
 				A394A7DD20A4BC90006E1F82 /* ViewController.swift in Sources */,
+				E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */,
 				A394A7DB20A4BC90006E1F82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
