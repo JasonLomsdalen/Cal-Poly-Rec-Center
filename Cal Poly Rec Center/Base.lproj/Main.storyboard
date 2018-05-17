@@ -65,6 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-14" y="-426"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lr8-W7-GcL">
@@ -80,7 +81,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gyr-NH-9vV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-796" y="-629"/>
+            <point key="canvasLocation" x="-1094" y="-426"/>
         </scene>
         <!--Currents Stats-->
         <scene sceneID="zUR-gS-dRF">
@@ -187,10 +188,10 @@
             </objects>
             <point key="canvasLocation" x="1388" y="-938.68065967016503"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Equipment Table View Controller-->
         <scene sceneID="NRW-gP-96L">
             <objects>
-                <tableViewController id="UXX-eS-cjg" sceneMemberID="viewController">
+                <tableViewController id="UXX-eS-cjg" customClass="EquipmentTableViewController" customModule="Cal_Poly_Rec_Center" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IYZ-OH-flH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +214,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qv-Hm-mUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2181" y="-937"/>
+            <point key="canvasLocation" x="2462" y="-939"/>
         </scene>
         <!--Fitness Classes-->
         <scene sceneID="B43-Aa-ykZ">
@@ -254,7 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQl-Hf-XY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="701"/>
+            <point key="canvasLocation" x="910" y="570"/>
         </scene>
     </scenes>
 </document>
