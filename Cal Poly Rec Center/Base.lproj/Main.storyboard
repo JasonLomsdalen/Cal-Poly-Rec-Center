@@ -26,14 +26,6 @@
                                     <segue destination="Sg4-xn-FXO" kind="show" id="N8Z-28-Dgu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-N7-IOL">
-                                <rect key="frame" x="209" y="427" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rentals" image="Copy of Check Current Status-2.png"/>
-                                <connections>
-                                    <segue destination="jqF-AP-77j" kind="show" id="qnS-Gb-e0y"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mza-up-jWX">
                                 <rect key="frame" x="16" y="214" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -42,18 +34,20 @@
                                     <segue destination="MBJ-zE-3O1" kind="show" id="tka-va-H3S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-pU-UnZ">
-                                <rect key="frame" x="16" y="427" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fitness Classes" image="Fitness Classes.png"/>
-                                <connections>
-                                    <segue destination="6Xm-sk-ohX" kind="show" id="hwn-4c-Jvs"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asilogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="J3H-nB-cdY">
                                 <rect key="frame" x="77" y="90" width="221" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km5-kF-m7f">
+                                <rect key="frame" x="268" y="535" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jw-5i-UXl">
+                                <rect key="frame" x="16" y="415" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Copy of Fitness Classes.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -171,13 +165,16 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-lx-LbN">
                                 <rect key="frame" x="92" y="622" width="191" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <segments>
                                     <segment title="First Floor"/>
                                     <segment title="Second Floor"/>
                                 </segments>
+                                <color key="tintColor" red="0.19695898889999999" green="0.44878530500000002" blue="0.27448266739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.19695898889999999" green="0.44878530500000002" blue="0.27448266739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="qQ0-sQ-psm"/>
                     </view>
                 </viewController>
@@ -224,15 +221,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RVe-uI-LcD">
-                                <rect key="frame" x="16" y="106" width="343" height="465"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-pU-UnZ">
+                                <rect key="frame" x="112" y="176" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                                <state key="normal" title="Fitness Classes" image="Fitness Classes.png"/>
+                                <connections>
+                                    <segue destination="6Xm-sk-ohX" kind="show" id="hwn-4c-Jvs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kgQ-l3-s9w"/>
@@ -240,7 +236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQj-nE-6Y6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="-197.45127436281859"/>
+            <point key="canvasLocation" x="1388" y="27"/>
         </scene>
         <!--Rentals-->
         <scene sceneID="BCH-8F-V1m">
@@ -249,18 +245,74 @@
                     <view key="view" contentMode="scaleToFill" id="dWp-TQ-o7O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-N7-IOL">
+                                <rect key="frame" x="112" y="130" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rentals" image="Copy of Check Current Status-2.png"/>
+                                <connections>
+                                    <segue destination="jqF-AP-77j" kind="show" id="qnS-Gb-e0y"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="b0Y-Zt-nQe"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQl-Hf-XY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="910" y="570"/>
+            <point key="canvasLocation" x="497" y="734"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aN3-Ai-QGr">
+            <objects>
+                <viewController id="rWn-qx-qeX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DCf-TL-Ndu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NBu-3i-J1o"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YQt-Ox-mv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2266" y="317"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xmW-Es-dmF">
+            <objects>
+                <viewController id="qvm-0i-uRS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LRp-Jd-8cr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8Ie-Ri-R4p"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XW1-T4-OnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2275" y="1045"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dXd-3m-cKh">
+            <objects>
+                <viewController id="yTu-8K-kn7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wDg-51-2af">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X9g-Ac-WQ3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SnK-PE-jex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2288" y="1781"/>
         </scene>
     </scenes>
     <resources>
         <image name="Copy of Check Current Status-2.png" width="500" height="500"/>
         <image name="Copy of Check Current Status.png" width="500" height="500"/>
+        <image name="Copy of Fitness Classes.png" width="500" height="500"/>
         <image name="Fitness Classes.png" width="500" height="500"/>
         <image name="View Equipment Map-2.png" width="500" height="500"/>
         <image name="asilogo.png" width="1797" height="524"/>
