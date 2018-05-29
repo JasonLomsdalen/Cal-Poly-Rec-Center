@@ -18,45 +18,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cal Poly Rec Center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kej-zz-O9U">
-                                <rect key="frame" x="111" y="72" width="152" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a1-jS-Vjg">
+                                <rect key="frame" x="209" y="214" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a1-jS-Vjg">
-                                <rect key="frame" x="131" y="278" width="113" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Equiptment Map"/>
+                                <state key="normal" title="Equiptment Map" image="View Equipment Map-2.png"/>
                                 <connections>
                                     <segue destination="Sg4-xn-FXO" kind="show" id="N8Z-28-Dgu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-pU-UnZ">
-                                <rect key="frame" x="134" y="410" width="107" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-N7-IOL">
+                                <rect key="frame" x="209" y="427" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fitness Classes"/>
-                                <connections>
-                                    <segue destination="6Xm-sk-ohX" kind="show" id="hwn-4c-Jvs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-N7-IOL">
-                                <rect key="frame" x="162" y="538" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rentals"/>
+                                <state key="normal" title="Rentals" image="Copy of Check Current Status-2.png"/>
                                 <connections>
                                     <segue destination="jqF-AP-77j" kind="show" id="qnS-Gb-e0y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mza-up-jWX">
-                                <rect key="frame" x="137" y="160" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mza-up-jWX">
+                                <rect key="frame" x="16" y="214" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Current Status"/>
+                                <state key="normal" title="Current Status" image="Copy of Check Current Status.png"/>
                                 <connections>
                                     <segue destination="MBJ-zE-3O1" kind="show" id="tka-va-H3S"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-pU-UnZ">
+                                <rect key="frame" x="16" y="427" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Fitness Classes" image="Fitness Classes.png"/>
+                                <connections>
+                                    <segue destination="6Xm-sk-ohX" kind="show" id="hwn-4c-Jvs"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asilogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="J3H-nB-cdY">
+                                <rect key="frame" x="77" y="90" width="221" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14" y="-426"/>
+            <point key="canvasLocation" x="-15.199999999999999" y="-426.83658170914543"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lr8-W7-GcL">
@@ -261,4 +258,11 @@
             <point key="canvasLocation" x="910" y="570"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Copy of Check Current Status-2.png" width="500" height="500"/>
+        <image name="Copy of Check Current Status.png" width="500" height="500"/>
+        <image name="Fitness Classes.png" width="500" height="500"/>
+        <image name="View Equipment Map-2.png" width="500" height="500"/>
+        <image name="asilogo.png" width="1797" height="524"/>
+    </resources>
 </document>
