@@ -37,15 +37,16 @@ class ViewController: UIViewController {
             if let data = receivedData {
                 do {
                     let decoder = JSONDecoder()
-                    var hourlyAvgService = try decoder.decode(HourlyAvg.Averages.self, from: data)
+                    var hourlyAvgService = try decoder.decode([HourlyAvg].self, from: data)
 
                     self.ref = Database.database().reference().child("hourlyAvg")
 
-              
-                    //self.hour0 = self.hour0.replacingOccurrences(of: ".", with: "")
-                    let schoolRef = self.ref?.child(hourlyAvgService.version!)
-                    schoolRef?.setValue(hourlyAvgService.toAnyObject())
-
+                    for item in hourlyAvgService {
+                       // item.version = item.version?.replacingOccurrences(of: ".", with: "")
+                        let schoolRef = self.ref?.child(item.version!)
+                        schoolRef?.setValue(item.toAnyObject())
+                       // self.geoFire?.setLocation(CLLocation(latitude:item.latitude!,longitude:item.longitude!), forKey: item.name)
+                    }
                     
                     
                 } catch {

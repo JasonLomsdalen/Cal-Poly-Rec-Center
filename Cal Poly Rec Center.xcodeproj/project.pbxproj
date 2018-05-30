@@ -357,7 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9D6Z6CV3WX;
+				DEVELOPMENT_TEAM = PD42J8PC5Z;
 				INFOPLIST_FILE = "Cal Poly Rec Center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "csc436.Cal-Poly-Rec-Center";
@@ -372,7 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9D6Z6CV3WX;
+				DEVELOPMENT_TEAM = PD42J8PC5Z;
 				INFOPLIST_FILE = "Cal Poly Rec Center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "csc436.Cal-Poly-Rec-Center";

@@ -9,11 +9,7 @@
 import Foundation
 
 struct HourlyAvg : Codable {
-    var averages : [Averages]
-    /*private enum CodingKeys: String, CodingKey{
-        case averages = ""
-    }*/
-    class Averages : Codable {
+    
         private enum CodingKeys: String, CodingKey{
             case hour0 = "0"
             case hour4 = "4"
@@ -36,8 +32,9 @@ struct HourlyAvg : Codable {
             case hour21 = "21"
             case hour22 = "22"
             case hour23 = "23"
+            case version = "version"
         }
-        var version : String?
+    
         var hour0 : Double?
         var hour4 : Double?
         var hour5 : Double?
@@ -59,10 +56,10 @@ struct HourlyAvg : Codable {
         var hour21 : Double?
         var hour22 : Double?
         var hour23 : Double?
+        var version : String?
         
         func toAnyObject() -> Any {
             return [
-                "version" : version as Any,
                 "hour0" : hour0 as Any,
                 "hour4" : hour4 as Any,
                 "hour5" : hour5 as Any,
@@ -84,8 +81,9 @@ struct HourlyAvg : Codable {
                 "hour21" : hour21 as Any,
                 "hour22" : hour22 as Any,
                 "hour23" : hour23 as Any,
+                "version" : version as Any,
             ]
         }
-    }
+    
     
 }

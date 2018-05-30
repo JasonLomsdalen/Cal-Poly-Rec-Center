@@ -126,9 +126,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
          We setup a pair of anchors that will define how the floorplan image
          maps to geographic co-ordinates.
          */
-        let anchor1 = GeoAnchor(latitudeLongitudeCoordinate: CLLocationCoordinate2DMake(37.770419,-122.465726), pdfPoint: CGPoint(x: 26.2, y: 86.4))
+        let anchor1 = GeoAnchor(latitudeLongitudeCoordinate: CLLocationCoordinate2DMake(35.298206,-120.659587), pdfPoint: CGPoint(x: 491, y: 277))
         
-        let anchor2 = GeoAnchor(latitudeLongitudeCoordinate: CLLocationCoordinate2DMake(37.769288,-122.466376), pdfPoint: CGPoint(x: 570.1, y: 317.7))
+        let anchor2 = GeoAnchor(latitudeLongitudeCoordinate: CLLocationCoordinate2DMake(35.298523,-120.659978), pdfPoint: CGPoint(x: 701, y: 486))
         
         let anchorPair = GeoAnchorPair(fromAnchor: anchor1, toAnchor: anchor2)
         

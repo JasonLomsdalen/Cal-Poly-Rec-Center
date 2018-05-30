@@ -14,7 +14,7 @@
 		A346C7D420BE20D300DE4CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A346C7D320BE20D300DE4CD0 /* Assets.xcassets */; };
 		A346C7D720BE20D300DE4CD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A346C7D520BE20D300DE4CD0 /* LaunchScreen.storyboard */; };
 		A346C7E420BE261600DE4CD0 /* HourlyAvg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7E320BE261600DE4CD0 /* HourlyAvg.swift */; };
-		A346C7E620BE352E00DE4CD0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A346C7E520BE352E00DE4CD0 /* GoogleService-Info.plist */; };
+		E9B085A620BE6C5700661553 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9B085A520BE6C5700661553 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		A346C7D620BE20D300DE4CD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A346C7D820BE20D300DE4CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A346C7E320BE261600DE4CD0 /* HourlyAvg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyAvg.swift; sourceTree = "<group>"; };
-		A346C7E520BE352E00DE4CD0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9B085A520BE6C5700661553 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 				A346C7D020BE20D100DE4CD0 /* Main.storyboard */,
 				A346C7D320BE20D300DE4CD0 /* Assets.xcassets */,
 				A346C7D520BE20D300DE4CD0 /* LaunchScreen.storyboard */,
-				A346C7E520BE352E00DE4CD0 /* GoogleService-Info.plist */,
+				E9B085A520BE6C5700661553 /* GoogleService-Info.plist */,
 				A346C7D820BE20D300DE4CD0 /* Info.plist */,
 			);
 			path = ParseRecCenterJSON;
@@ -155,8 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A346C7D720BE20D300DE4CD0 /* LaunchScreen.storyboard in Resources */,
-				A346C7E620BE352E00DE4CD0 /* GoogleService-Info.plist in Resources */,
 				A346C7D420BE20D300DE4CD0 /* Assets.xcassets in Resources */,
+				E9B085A620BE6C5700661553 /* GoogleService-Info.plist in Resources */,
 				A346C7D220BE20D100DE4CD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
