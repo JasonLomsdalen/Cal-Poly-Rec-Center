@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cal_Poly_Rec_Center" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,39 +21,39 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a1-jS-Vjg">
                                 <rect key="frame" x="209" y="214" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Equiptment Map" image="View Equipment Map-2.png"/>
+                                <state key="normal" title="Equiptment Map" image="Copy of View Equipment Map.png"/>
                                 <connections>
                                     <segue destination="Sg4-xn-FXO" kind="show" id="N8Z-28-Dgu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-N7-IOL">
-                                <rect key="frame" x="209" y="427" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rentals" image="Copy of Check Current Status-2.png"/>
-                                <connections>
-                                    <segue destination="jqF-AP-77j" kind="show" id="qnS-Gb-e0y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mza-up-jWX">
                                 <rect key="frame" x="16" y="214" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Current Status" image="Copy of Check Current Status.png"/>
+                                <state key="normal" title="Current Status" image="Copy of Check Current Status-3.png"/>
                                 <connections>
                                     <segue destination="MBJ-zE-3O1" kind="show" id="tka-va-H3S"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-pU-UnZ">
-                                <rect key="frame" x="16" y="427" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Fitness Classes" image="Fitness Classes.png"/>
-                                <connections>
-                                    <segue destination="6Xm-sk-ohX" kind="show" id="hwn-4c-Jvs"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asilogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="J3H-nB-cdY">
                                 <rect key="frame" x="77" y="90" width="221" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Jw-5i-UXl">
+                                <rect key="frame" x="16" y="415" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Copy of Fitness Classes.png"/>
+                                <connections>
+                                    <segue destination="6Xm-sk-ohX" kind="show" id="KEt-ga-H1h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km5-kF-m7f">
+                                <rect key="frame" x="209" y="415" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Equipment rentals.png"/>
+                                <connections>
+                                    <segue destination="jqF-AP-77j" kind="show" id="KPd-ZU-zku"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -136,54 +136,103 @@
             </objects>
             <point key="canvasLocation" x="1388" y="-1684.4077961019491"/>
         </scene>
-        <!--Equiptment Map-->
+        <!--Equipment Map-->
         <scene sceneID="Prg-7z-z8F">
             <objects>
-                <viewController title="Equiptment Map" id="Sg4-xn-FXO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="el6-Zt-USc">
+                <viewController title="Equipment Map" id="Sg4-xn-FXO" customClass="ViewController" customModule="Cal_Poly_Rec_Center" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="el6-Zt-USc" customClass="MapViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9c-4j-9w6">
-                                <rect key="frame" x="141" y="87" width="92" height="30"/>
+                                <rect key="frame" x="267" y="617" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Find Machine"/>
                                 <connections>
                                     <segue destination="UXX-eS-cjg" kind="show" id="27x-77-UtV"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-LS-LEl">
-                                <rect key="frame" x="16" y="163" width="343" height="451"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQj-5d-KGF">
-                                <rect key="frame" x="318" y="69" width="36" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="llL-Cs-rJX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="461"/>
+                                <subviews>
+                                    <stackView clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BE7-p9-2wJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="461"/>
+                                        <subviews>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="satellite" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-LS-LEl">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="461"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="Sg4-xn-FXO" id="0lS-pn-vN2"/>
+                                                </connections>
+                                            </mapView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQj-5d-KGF">
+                                <rect key="frame" x="16" y="533" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Machine Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBA-Dr-BiV">
-                                <rect key="frame" x="130" y="125" width="115" height="21"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-lx-LbN">
+                                <rect key="frame" x="92" y="580" width="191" height="29"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="First Floor"/>
+                                    <segment title="Second Floor"/>
+                                </segments>
+                                <color key="tintColor" red="0.19695898889999999" green="0.44878530500000002" blue="0.27448266739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVb-rx-5cd">
+                                <rect key="frame" x="16" y="617" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.196958988904953" green="0.44878530502319336" blue="0.27448266744613647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="toggleDebugVisuals:" destination="Sg4-xn-FXO" eventType="valueChanged" id="g5f-kO-VYW"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1op-mK-JVV">
+                                <rect key="frame" x="92" y="618" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="revealMapKitTileset:" destination="Sg4-xn-FXO" eventType="touchUpInside" id="tEu-UK-0G3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCo-H8-D5h">
+                                <rect key="frame" x="164" y="617" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="resetCamera:" destination="Sg4-xn-FXO" eventType="touchUpInside" id="n1B-6o-e1w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Machine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBA-Dr-BiV">
+                                <rect key="frame" x="231" y="537" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-lx-LbN">
-                                <rect key="frame" x="92" y="622" width="191" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="First Floor"/>
-                                    <segment title="Second Floor"/>
-                                </segments>
-                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.19695898889999999" green="0.44878530500000002" blue="0.27448266739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="iQj-5d-KGF" firstAttribute="top" secondItem="llL-Cs-rJX" secondAttribute="bottom" constant="8" symbolic="YES" id="6I9-60-7RO"/>
+                            <constraint firstAttribute="bottom" secondItem="llL-Cs-rJX" secondAttribute="bottom" constant="142" id="O4h-aL-Oma"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="centerX" secondItem="JdJ-lx-LbN" secondAttribute="centerX" id="PyE-vX-H8b"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="centerX" secondItem="XCo-H8-D5h" secondAttribute="centerX" id="Tlg-4r-xKf"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="top" secondItem="qQ0-sQ-psm" secondAttribute="top" id="ZRe-Lz-aUC"/>
+                            <constraint firstAttribute="trailing" secondItem="llL-Cs-rJX" secondAttribute="trailing" id="quz-8f-Q0s"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="leading" secondItem="el6-Zt-USc" secondAttribute="leading" id="sys-bY-OC4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qQ0-sQ-psm"/>
                     </view>
+                    <connections>
+                        <outlet property="debugVisualsSwitch" destination="IVb-rx-5cd" id="sbt-sJ-Ply"/>
+                        <outlet property="mapView" destination="9fo-LS-LEl" id="kzU-A6-1nZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqd-c8-HIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="-938.68065967016503"/>
+            <point key="canvasLocation" x="1388" y="-813.64317841079469"/>
         </scene>
         <!--Equipment Table View Controller-->
         <scene sceneID="NRW-gP-96L">
@@ -214,25 +263,32 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qv-Hm-mUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2462" y="-939"/>
+            <point key="canvasLocation" x="2346" y="-1024"/>
         </scene>
-        <!--Fitness Classes-->
+        <!--Fitness Information-->
         <scene sceneID="B43-Aa-ykZ">
             <objects>
-                <viewController title="Fitness Classes" id="6Xm-sk-ohX" sceneMemberID="viewController">
+                <viewController title="Fitness Information" id="6Xm-sk-ohX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zwT-W9-SsE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RVe-uI-LcD">
-                                <rect key="frame" x="16" y="106" width="343" height="465"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuL-pU-UnZ">
+                                <rect key="frame" x="112" y="145" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                                <state key="normal" title="Fitness Classes" image="Fitness Classes.png"/>
+                                <connections>
+                                    <segue destination="rWn-qx-qeX" kind="show" id="79I-ph-J9K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oub-JL-NqT">
+                                <rect key="frame" x="112" y="405" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Aquatics Info.png"/>
+                                <connections>
+                                    <segue destination="FgJ-Px-i8P" kind="show" id="yMP-T1-fJL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="kgQ-l3-s9w"/>
@@ -240,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kQj-nE-6Y6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="-197.45127436281859"/>
+            <point key="canvasLocation" x="1572" y="54"/>
         </scene>
         <!--Rentals-->
         <scene sceneID="BCH-8F-V1m">
@@ -249,20 +305,102 @@
                     <view key="view" contentMode="scaleToFill" id="dWp-TQ-o7O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vn3-N7-IOL">
+                                <rect key="frame" x="112" y="130" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Rentals" image="Copy of Check Current Status-2.png"/>
+                                <connections>
+                                    <segue destination="qvm-0i-uRS" kind="show" id="8wi-t1-qGV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYd-KY-zi8">
+                                <rect key="frame" x="112" y="387" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Copy of Fitness Classes-2.png"/>
+                                <connections>
+                                    <segue destination="yTu-8K-kn7" kind="show" id="GBi-Wj-aL0"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="b0Y-Zt-nQe"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQl-Hf-XY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="910" y="570"/>
+            <point key="canvasLocation" x="-278" y="780"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aN3-Ai-QGr">
+            <objects>
+                <viewController id="rWn-qx-qeX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DCf-TL-Ndu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NBu-3i-J1o"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YQt-Ox-mv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2783" y="-213"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="blb-DX-xfS">
+            <objects>
+                <viewController id="FgJ-Px-i8P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ksx-55-1Nq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ApA-fX-ky6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HaY-WP-OE5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2781" y="483"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xmW-Es-dmF">
+            <objects>
+                <viewController id="qvm-0i-uRS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LRp-Jd-8cr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8Ie-Ri-R4p"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XW1-T4-OnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="597"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dXd-3m-cKh">
+            <objects>
+                <viewController id="yTu-8K-kn7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wDg-51-2af">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X9g-Ac-WQ3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SnK-PE-jex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="1540"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Aquatics Info.png" width="500" height="500"/>
         <image name="Copy of Check Current Status-2.png" width="500" height="500"/>
-        <image name="Copy of Check Current Status.png" width="500" height="500"/>
+        <image name="Copy of Check Current Status-3.png" width="500" height="500"/>
+        <image name="Copy of Fitness Classes-2.png" width="500" height="500"/>
+        <image name="Copy of Fitness Classes.png" width="500" height="500"/>
+        <image name="Copy of View Equipment Map.png" width="500" height="500"/>
+        <image name="Equipment rentals.png" width="500" height="500"/>
         <image name="Fitness Classes.png" width="500" height="500"/>
-        <image name="View Equipment Map-2.png" width="500" height="500"/>
         <image name="asilogo.png" width="1797" height="524"/>
     </resources>
 </document>
