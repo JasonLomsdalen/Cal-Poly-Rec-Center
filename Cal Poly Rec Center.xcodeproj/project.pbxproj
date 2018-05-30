@@ -13,13 +13,14 @@
 		A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A394A7E120A4BC93006E1F82 /* Assets.xcassets */; };
 		A394A7E520A4BC93006E1F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */; };
 		E9A19E3B20BDF7B800037687 /* asilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E3A20BDF7B800037687 /* asilogo.png */; };
-		E9A19E3D20BDF8A700037687 /* Check Current Status.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E3C20BDF8A700037687 /* Check Current Status.png */; };
-		E9A19E4120BDF99900037687 /* View Equipment Map.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4020BDF99900037687 /* View Equipment Map.png */; };
 		E9A19E4320BDF99E00037687 /* Fitness Classes.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4220BDF99E00037687 /* Fitness Classes.png */; };
-		E9A19E4520BDFBA900037687 /* Copy of Check Current Status.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4420BDFBA800037687 /* Copy of Check Current Status.png */; };
-		E9A19E4720BDFBEB00037687 /* View Equipment Map-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4620BDFBEA00037687 /* View Equipment Map-2.png */; };
 		E9A19E4920BDFCE700037687 /* Copy of Check Current Status-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */; };
 		E9A19E4B20BE16C600037687 /* Copy of Fitness Classes.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */; };
+		E9A19E4D20BE185F00037687 /* Equipment rentals.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4C20BE185E00037687 /* Equipment rentals.png */; };
+		E9A19E4F20BE19E200037687 /* Copy of Fitness Classes-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4E20BE19E200037687 /* Copy of Fitness Classes-2.png */; };
+		E9A19E5120BE208900037687 /* Aquatics Info.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E5020BE208900037687 /* Aquatics Info.png */; };
+		E9A19E5320BE210800037687 /* Copy of View Equipment Map.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E5220BE210700037687 /* Copy of View Equipment Map.png */; };
+		E9A19E5520BE217200037687 /* Copy of Check Current Status-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E5420BE217100037687 /* Copy of Check Current Status-3.png */; };
 		E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */; };
 		E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -33,13 +34,14 @@
 		A394A7E420A4BC93006E1F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A394A7E620A4BC93006E1F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9A19E3A20BDF7B800037687 /* asilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asilogo.png; path = ../../../../../../Downloads/asilogo.png; sourceTree = "<group>"; };
-		E9A19E3C20BDF8A700037687 /* Check Current Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check Current Status.png"; sourceTree = "<group>"; };
-		E9A19E4020BDF99900037687 /* View Equipment Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "View Equipment Map.png"; sourceTree = "<group>"; };
 		E9A19E4220BDF99E00037687 /* Fitness Classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fitness Classes.png"; sourceTree = "<group>"; };
-		E9A19E4420BDFBA800037687 /* Copy of Check Current Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Check Current Status.png"; sourceTree = "<group>"; };
-		E9A19E4620BDFBEA00037687 /* View Equipment Map-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "View Equipment Map-2.png"; sourceTree = "<group>"; };
 		E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Check Current Status-2.png"; sourceTree = "<group>"; };
 		E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Fitness Classes.png"; sourceTree = "<group>"; };
+		E9A19E4C20BE185E00037687 /* Equipment rentals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Equipment rentals.png"; sourceTree = "<group>"; };
+		E9A19E4E20BE19E200037687 /* Copy of Fitness Classes-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Fitness Classes-2.png"; sourceTree = "<group>"; };
+		E9A19E5020BE208900037687 /* Aquatics Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aquatics Info.png"; sourceTree = "<group>"; };
+		E9A19E5220BE210700037687 /* Copy of View Equipment Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of View Equipment Map.png"; sourceTree = "<group>"; };
+		E9A19E5420BE217100037687 /* Copy of Check Current Status-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Check Current Status-3.png"; sourceTree = "<group>"; };
 		E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewController.swift; sourceTree = "<group>"; };
 		E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,13 +85,14 @@
 				A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */,
 				A394A7E620A4BC93006E1F82 /* Info.plist */,
 				E9A19E3A20BDF7B800037687 /* asilogo.png */,
-				E9A19E4420BDFBA800037687 /* Copy of Check Current Status.png */,
 				E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */,
+				E9A19E4E20BE19E200037687 /* Copy of Fitness Classes-2.png */,
 				E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */,
-				E9A19E4620BDFBEA00037687 /* View Equipment Map-2.png */,
+				E9A19E5020BE208900037687 /* Aquatics Info.png */,
+				E9A19E4C20BE185E00037687 /* Equipment rentals.png */,
 				E9A19E4220BDF99E00037687 /* Fitness Classes.png */,
-				E9A19E4020BDF99900037687 /* View Equipment Map.png */,
-				E9A19E3C20BDF8A700037687 /* Check Current Status.png */,
+				E9A19E5220BE210700037687 /* Copy of View Equipment Map.png */,
+				E9A19E5420BE217100037687 /* Copy of Check Current Status-3.png */,
 			);
 			path = "Cal Poly Rec Center";
 			sourceTree = "<group>";
@@ -152,17 +155,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A19E4520BDFBA900037687 /* Copy of Check Current Status.png in Resources */,
+				E9A19E5520BE217200037687 /* Copy of Check Current Status-3.png in Resources */,
+				E9A19E4F20BE19E200037687 /* Copy of Fitness Classes-2.png in Resources */,
+				E9A19E4D20BE185F00037687 /* Equipment rentals.png in Resources */,
 				E9A19E4320BDF99E00037687 /* Fitness Classes.png in Resources */,
 				E9A19E3B20BDF7B800037687 /* asilogo.png in Resources */,
+				E9A19E5320BE210800037687 /* Copy of View Equipment Map.png in Resources */,
 				A394A7E520A4BC93006E1F82 /* LaunchScreen.storyboard in Resources */,
-				E9A19E4720BDFBEB00037687 /* View Equipment Map-2.png in Resources */,
 				E9A19E4920BDFCE700037687 /* Copy of Check Current Status-2.png in Resources */,
-				E9A19E4120BDF99900037687 /* View Equipment Map.png in Resources */,
-				E9A19E3D20BDF8A700037687 /* Check Current Status.png in Resources */,
 				A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */,
 				A394A7E020A4BC90006E1F82 /* Main.storyboard in Resources */,
 				E9A19E4B20BE16C600037687 /* Copy of Fitness Classes.png in Resources */,
+				E9A19E5120BE208900037687 /* Aquatics Info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
