@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A346C7EA20BE51ED00DE4CD0 /* asilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A346C7E920BE51ED00DE4CD0 /* asilogo.png */; };
 		A346C7EE20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7ED20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift */; };
 		A346C7F020BE57C700DE4CD0 /* PolyRentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7EF20BE57C700DE4CD0 /* PolyRentsTableViewController.swift */; };
 		A346C7F220BE59B400DE4CD0 /* rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7F120BE59B400DE4CD0 /* rental.swift */; };
@@ -34,12 +33,12 @@
 		E9A19E6220BE252C00037687 /* HideBackgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5B20BE252B00037687 /* HideBackgroundOverlay.swift */; };
 		E9A19E6320BE252C00037687 /* FloorplanOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5C20BE252C00037687 /* FloorplanOverlayRenderer.swift */; };
 		E9A19E6720BE2C5900037687 /* Floorplans in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E6620BE2C5900037687 /* Floorplans */; };
+		E9B085A820BE730200661553 /* asilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B085A720BE730200661553 /* asilogo.png */; };
 		E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */; };
 		E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A346C7E920BE51ED00DE4CD0 /* asilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asilogo.png; path = ../../../../Desktop/asilogo.png; sourceTree = "<group>"; };
 		A346C7ED20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyRentsTableViewCell.swift; sourceTree = "<group>"; };
 		A346C7EF20BE57C700DE4CD0 /* PolyRentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyRentsTableViewController.swift; sourceTree = "<group>"; };
 		A346C7F120BE59B400DE4CD0 /* rental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rental.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		E9A19E5B20BE252B00037687 /* HideBackgroundOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideBackgroundOverlay.swift; sourceTree = "<group>"; };
 		E9A19E5C20BE252C00037687 /* FloorplanOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorplanOverlayRenderer.swift; sourceTree = "<group>"; };
 		E9A19E6620BE2C5900037687 /* Floorplans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Floorplans; sourceTree = "<group>"; };
+		E9B085A720BE730200661553 /* asilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asilogo.png; path = ../../../../../../Downloads/asilogo.png; sourceTree = "<group>"; };
 		E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewController.swift; sourceTree = "<group>"; };
 		E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,7 +123,7 @@
 				A394A7E120A4BC93006E1F82 /* Assets.xcassets */,
 				A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */,
 				A394A7E620A4BC93006E1F82 /* Info.plist */,
-				A346C7E920BE51ED00DE4CD0 /* asilogo.png */,
+				E9B085A720BE730200661553 /* asilogo.png */,
 				E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */,
 				E9A19E4E20BE19E200037687 /* Copy of Fitness Classes-2.png */,
 				E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */,
@@ -200,7 +200,7 @@
 				E9A19E4D20BE185F00037687 /* Equipment rentals.png in Resources */,
 				E9A19E4320BDF99E00037687 /* Fitness Classes.png in Resources */,
 				E9A19E5320BE210800037687 /* Copy of View Equipment Map.png in Resources */,
-				A346C7EA20BE51ED00DE4CD0 /* asilogo.png in Resources */,
+				E9B085A820BE730200661553 /* asilogo.png in Resources */,
 				A394A7E520A4BC93006E1F82 /* LaunchScreen.storyboard in Resources */,
 				E9A19E4920BDFCE700037687 /* Copy of Check Current Status-2.png in Resources */,
 				A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */,
