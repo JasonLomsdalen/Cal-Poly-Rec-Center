@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cal_Poly_Rec_Center" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,41 +136,44 @@
             </objects>
             <point key="canvasLocation" x="1388" y="-1684.4077961019491"/>
         </scene>
-        <!--Equiptment Map-->
+        <!--Equipment Map-->
         <scene sceneID="Prg-7z-z8F">
             <objects>
-                <viewController title="Equiptment Map" id="Sg4-xn-FXO" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="el6-Zt-USc">
+                <viewController title="Equipment Map" id="Sg4-xn-FXO" customClass="ViewController" customModule="Cal_Poly_Rec_Center" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="el6-Zt-USc" customClass="MapViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9c-4j-9w6">
-                                <rect key="frame" x="141" y="87" width="92" height="30"/>
+                                <rect key="frame" x="267" y="617" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Find Machine"/>
                                 <connections>
                                     <segue destination="UXX-eS-cjg" kind="show" id="27x-77-UtV"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-LS-LEl">
-                                <rect key="frame" x="16" y="163" width="343" height="451"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQj-5d-KGF">
-                                <rect key="frame" x="318" y="69" width="36" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="llL-Cs-rJX">
+                                <rect key="frame" x="0.0" y="64" width="375" height="461"/>
+                                <subviews>
+                                    <stackView clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BE7-p9-2wJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="461"/>
+                                        <subviews>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="satellite" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-LS-LEl">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="461"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="Sg4-xn-FXO" id="0lS-pn-vN2"/>
+                                                </connections>
+                                            </mapView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQj-5d-KGF">
+                                <rect key="frame" x="16" y="533" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Machine Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBA-Dr-BiV">
-                                <rect key="frame" x="130" y="125" width="115" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-lx-LbN">
-                                <rect key="frame" x="92" y="622" width="191" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-lx-LbN">
+                                <rect key="frame" x="92" y="580" width="191" height="29"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <segments>
                                     <segment title="First Floor"/>
@@ -178,15 +181,58 @@
                                 </segments>
                                 <color key="tintColor" red="0.19695898889999999" green="0.44878530500000002" blue="0.27448266739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVb-rx-5cd">
+                                <rect key="frame" x="16" y="617" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.196958988904953" green="0.44878530502319336" blue="0.27448266744613647" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="toggleDebugVisuals:" destination="Sg4-xn-FXO" eventType="valueChanged" id="g5f-kO-VYW"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1op-mK-JVV">
+                                <rect key="frame" x="92" y="618" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="revealMapKitTileset:" destination="Sg4-xn-FXO" eventType="touchUpInside" id="tEu-UK-0G3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCo-H8-D5h">
+                                <rect key="frame" x="164" y="617" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="resetCamera:" destination="Sg4-xn-FXO" eventType="touchUpInside" id="n1B-6o-e1w"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Machine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBA-Dr-BiV">
+                                <rect key="frame" x="231" y="537" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.19695898889999999" green="0.44878530500000002" blue="0.27448266739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="iQj-5d-KGF" firstAttribute="top" secondItem="llL-Cs-rJX" secondAttribute="bottom" constant="8" symbolic="YES" id="6I9-60-7RO"/>
+                            <constraint firstAttribute="bottom" secondItem="llL-Cs-rJX" secondAttribute="bottom" constant="142" id="O4h-aL-Oma"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="centerX" secondItem="JdJ-lx-LbN" secondAttribute="centerX" id="PyE-vX-H8b"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="centerX" secondItem="XCo-H8-D5h" secondAttribute="centerX" id="Tlg-4r-xKf"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="top" secondItem="qQ0-sQ-psm" secondAttribute="top" id="ZRe-Lz-aUC"/>
+                            <constraint firstAttribute="trailing" secondItem="llL-Cs-rJX" secondAttribute="trailing" id="quz-8f-Q0s"/>
+                            <constraint firstItem="llL-Cs-rJX" firstAttribute="leading" secondItem="el6-Zt-USc" secondAttribute="leading" id="sys-bY-OC4"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qQ0-sQ-psm"/>
                     </view>
+                    <connections>
+                        <outlet property="debugVisualsSwitch" destination="IVb-rx-5cd" id="sbt-sJ-Ply"/>
+                        <outlet property="mapView" destination="9fo-LS-LEl" id="kzU-A6-1nZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqd-c8-HIL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="-938.68065967016503"/>
+            <point key="canvasLocation" x="1388" y="-813.64317841079469"/>
         </scene>
         <!--Equipment Table View Controller-->
         <scene sceneID="NRW-gP-96L">
@@ -217,7 +263,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qv-Hm-mUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2462" y="-939"/>
+            <point key="canvasLocation" x="2346" y="-1024"/>
         </scene>
         <!--Fitness Information-->
         <scene sceneID="B43-Aa-ykZ">

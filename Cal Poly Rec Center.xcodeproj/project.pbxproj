@@ -21,6 +21,14 @@
 		E9A19E5120BE208900037687 /* Aquatics Info.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E5020BE208900037687 /* Aquatics Info.png */; };
 		E9A19E5320BE210800037687 /* Copy of View Equipment Map.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E5220BE210700037687 /* Copy of View Equipment Map.png */; };
 		E9A19E5520BE217200037687 /* Copy of Check Current Status-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E5420BE217100037687 /* Copy of Check Current Status-3.png */; };
+		E9A19E5D20BE252C00037687 /* MKMapRectRotated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5620BE252B00037687 /* MKMapRectRotated.swift */; };
+		E9A19E5E20BE252C00037687 /* FloorplanOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5720BE252B00037687 /* FloorplanOverlay.swift */; };
+		E9A19E5F20BE252C00037687 /* CoordinateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5820BE252B00037687 /* CoordinateConverter.swift */; };
+		E9A19E6020BE252C00037687 /* VisibleMapRegionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5920BE252B00037687 /* VisibleMapRegionDelegate.swift */; };
+		E9A19E6120BE252C00037687 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5A20BE252B00037687 /* Utilities.swift */; };
+		E9A19E6220BE252C00037687 /* HideBackgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5B20BE252B00037687 /* HideBackgroundOverlay.swift */; };
+		E9A19E6320BE252C00037687 /* FloorplanOverlayRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A19E5C20BE252C00037687 /* FloorplanOverlayRenderer.swift */; };
+		E9A19E6720BE2C5900037687 /* Floorplans in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E6620BE2C5900037687 /* Floorplans */; };
 		E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */; };
 		E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +50,14 @@
 		E9A19E5020BE208900037687 /* Aquatics Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aquatics Info.png"; sourceTree = "<group>"; };
 		E9A19E5220BE210700037687 /* Copy of View Equipment Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of View Equipment Map.png"; sourceTree = "<group>"; };
 		E9A19E5420BE217100037687 /* Copy of Check Current Status-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Check Current Status-3.png"; sourceTree = "<group>"; };
+		E9A19E5620BE252B00037687 /* MKMapRectRotated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKMapRectRotated.swift; sourceTree = "<group>"; };
+		E9A19E5720BE252B00037687 /* FloorplanOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorplanOverlay.swift; sourceTree = "<group>"; };
+		E9A19E5820BE252B00037687 /* CoordinateConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateConverter.swift; sourceTree = "<group>"; };
+		E9A19E5920BE252B00037687 /* VisibleMapRegionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisibleMapRegionDelegate.swift; sourceTree = "<group>"; };
+		E9A19E5A20BE252B00037687 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E9A19E5B20BE252B00037687 /* HideBackgroundOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideBackgroundOverlay.swift; sourceTree = "<group>"; };
+		E9A19E5C20BE252C00037687 /* FloorplanOverlayRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorplanOverlayRenderer.swift; sourceTree = "<group>"; };
+		E9A19E6620BE2C5900037687 /* Floorplans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Floorplans; sourceTree = "<group>"; };
 		E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewController.swift; sourceTree = "<group>"; };
 		E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,8 +95,16 @@
 				A394A7DA20A4BC90006E1F82 /* AppDelegate.swift */,
 				A394A7DC20A4BC90006E1F82 /* ViewController.swift */,
 				A394A7DE20A4BC90006E1F82 /* Main.storyboard */,
+				E9A19E5820BE252B00037687 /* CoordinateConverter.swift */,
+				E9A19E5720BE252B00037687 /* FloorplanOverlay.swift */,
+				E9A19E5C20BE252C00037687 /* FloorplanOverlayRenderer.swift */,
+				E9A19E5B20BE252B00037687 /* HideBackgroundOverlay.swift */,
+				E9A19E5620BE252B00037687 /* MKMapRectRotated.swift */,
+				E9A19E5A20BE252B00037687 /* Utilities.swift */,
+				E9A19E5920BE252B00037687 /* VisibleMapRegionDelegate.swift */,
 				E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */,
 				E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */,
+				E9A19E6620BE2C5900037687 /* Floorplans */,
 				A394A7E120A4BC93006E1F82 /* Assets.xcassets */,
 				A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */,
 				A394A7E620A4BC93006E1F82 /* Info.plist */,
@@ -166,6 +190,7 @@
 				A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */,
 				A394A7E020A4BC90006E1F82 /* Main.storyboard in Resources */,
 				E9A19E4B20BE16C600037687 /* Copy of Fitness Classes.png in Resources */,
+				E9A19E6720BE2C5900037687 /* Floorplans in Resources */,
 				E9A19E5120BE208900037687 /* Aquatics Info.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,8 +203,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */,
+				E9A19E5F20BE252C00037687 /* CoordinateConverter.swift in Sources */,
 				A394A7DD20A4BC90006E1F82 /* ViewController.swift in Sources */,
+				E9A19E5D20BE252C00037687 /* MKMapRectRotated.swift in Sources */,
+				E9A19E6020BE252C00037687 /* VisibleMapRegionDelegate.swift in Sources */,
 				E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */,
+				E9A19E6220BE252C00037687 /* HideBackgroundOverlay.swift in Sources */,
+				E9A19E6320BE252C00037687 /* FloorplanOverlayRenderer.swift in Sources */,
+				E9A19E6120BE252C00037687 /* Utilities.swift in Sources */,
+				E9A19E5E20BE252C00037687 /* FloorplanOverlay.swift in Sources */,
 				A394A7DB20A4BC90006E1F82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
