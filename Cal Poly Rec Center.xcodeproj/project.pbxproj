@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A346C7EA20BE51ED00DE4CD0 /* asilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A346C7E920BE51ED00DE4CD0 /* asilogo.png */; };
+		A346C7EE20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7ED20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift */; };
+		A346C7F020BE57C700DE4CD0 /* PolyRentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7EF20BE57C700DE4CD0 /* PolyRentsTableViewController.swift */; };
+		A346C7F220BE59B400DE4CD0 /* rental.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7F120BE59B400DE4CD0 /* rental.swift */; };
+		A346C7F420BE618500DE4CD0 /* PolyRentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7F320BE618500DE4CD0 /* PolyRentsViewController.swift */; };
+		A346C7F620BE640E00DE4CD0 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A346C7F520BE640E00DE4CD0 /* View.swift */; };
 		A394A7DB20A4BC90006E1F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A394A7DA20A4BC90006E1F82 /* AppDelegate.swift */; };
 		A394A7DD20A4BC90006E1F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A394A7DC20A4BC90006E1F82 /* ViewController.swift */; };
 		A394A7E020A4BC90006E1F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A394A7DE20A4BC90006E1F82 /* Main.storyboard */; };
 		A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A394A7E120A4BC93006E1F82 /* Assets.xcassets */; };
 		A394A7E520A4BC93006E1F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */; };
-		E9A19E3B20BDF7B800037687 /* asilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E3A20BDF7B800037687 /* asilogo.png */; };
 		E9A19E4320BDF99E00037687 /* Fitness Classes.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4220BDF99E00037687 /* Fitness Classes.png */; };
 		E9A19E4920BDFCE700037687 /* Copy of Check Current Status-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */; };
 		E9A19E4B20BE16C600037687 /* Copy of Fitness Classes.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */; };
@@ -34,6 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A346C7E920BE51ED00DE4CD0 /* asilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asilogo.png; path = ../../../../Desktop/asilogo.png; sourceTree = "<group>"; };
+		A346C7ED20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyRentsTableViewCell.swift; sourceTree = "<group>"; };
+		A346C7EF20BE57C700DE4CD0 /* PolyRentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyRentsTableViewController.swift; sourceTree = "<group>"; };
+		A346C7F120BE59B400DE4CD0 /* rental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rental.swift; sourceTree = "<group>"; };
+		A346C7F320BE618500DE4CD0 /* PolyRentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyRentsViewController.swift; sourceTree = "<group>"; };
+		A346C7F520BE640E00DE4CD0 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		A394A7D720A4BC90006E1F82 /* Cal Poly Rec Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cal Poly Rec Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A394A7DA20A4BC90006E1F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A394A7DC20A4BC90006E1F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +52,6 @@
 		A394A7E120A4BC93006E1F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A394A7E420A4BC93006E1F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A394A7E620A4BC93006E1F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9A19E3A20BDF7B800037687 /* asilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asilogo.png; path = ../../../../../../Downloads/asilogo.png; sourceTree = "<group>"; };
 		E9A19E4220BDF99E00037687 /* Fitness Classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fitness Classes.png"; sourceTree = "<group>"; };
 		E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Check Current Status-2.png"; sourceTree = "<group>"; };
 		E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Copy of Fitness Classes.png"; sourceTree = "<group>"; };
@@ -104,11 +114,16 @@
 				E9A19E5920BE252B00037687 /* VisibleMapRegionDelegate.swift */,
 				E9E48F3420AD2C1900717F28 /* EquipmentTableViewCell.swift */,
 				E9E48F3220AD2B5F00717F28 /* EquipmentTableViewController.swift */,
+				A346C7F120BE59B400DE4CD0 /* rental.swift */,
+				A346C7ED20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift */,
+				A346C7EF20BE57C700DE4CD0 /* PolyRentsTableViewController.swift */,
+				A346C7F320BE618500DE4CD0 /* PolyRentsViewController.swift */,
+				A346C7F520BE640E00DE4CD0 /* View.swift */,
 				E9A19E6620BE2C5900037687 /* Floorplans */,
 				A394A7E120A4BC93006E1F82 /* Assets.xcassets */,
 				A394A7E320A4BC93006E1F82 /* LaunchScreen.storyboard */,
 				A394A7E620A4BC93006E1F82 /* Info.plist */,
-				E9A19E3A20BDF7B800037687 /* asilogo.png */,
+				A346C7E920BE51ED00DE4CD0 /* asilogo.png */,
 				E9A19E4820BDFCE600037687 /* Copy of Check Current Status-2.png */,
 				E9A19E4E20BE19E200037687 /* Copy of Fitness Classes-2.png */,
 				E9A19E4A20BE16C500037687 /* Copy of Fitness Classes.png */,
@@ -184,8 +199,8 @@
 				E9A19E4F20BE19E200037687 /* Copy of Fitness Classes-2.png in Resources */,
 				E9A19E4D20BE185F00037687 /* Equipment rentals.png in Resources */,
 				E9A19E4320BDF99E00037687 /* Fitness Classes.png in Resources */,
-				E9A19E3B20BDF7B800037687 /* asilogo.png in Resources */,
 				E9A19E5320BE210800037687 /* Copy of View Equipment Map.png in Resources */,
+				A346C7EA20BE51ED00DE4CD0 /* asilogo.png in Resources */,
 				A394A7E520A4BC93006E1F82 /* LaunchScreen.storyboard in Resources */,
 				E9A19E4920BDFCE700037687 /* Copy of Check Current Status-2.png in Resources */,
 				A394A7E220A4BC93006E1F82 /* Assets.xcassets in Resources */,
@@ -203,15 +218,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A346C7F620BE640E00DE4CD0 /* View.swift in Sources */,
 				E9E48F3320AD2B5F00717F28 /* EquipmentTableViewController.swift in Sources */,
 				E9A19E5F20BE252C00037687 /* CoordinateConverter.swift in Sources */,
 				A394A7DD20A4BC90006E1F82 /* ViewController.swift in Sources */,
 				E9A19E5D20BE252C00037687 /* MKMapRectRotated.swift in Sources */,
 				E9A19E6020BE252C00037687 /* VisibleMapRegionDelegate.swift in Sources */,
 				E9E48F3520AD2C1900717F28 /* EquipmentTableViewCell.swift in Sources */,
+				A346C7EE20BE55BC00DE4CD0 /* PolyRentsTableViewCell.swift in Sources */,
+				A346C7F020BE57C700DE4CD0 /* PolyRentsTableViewController.swift in Sources */,
 				E9A19E6220BE252C00037687 /* HideBackgroundOverlay.swift in Sources */,
 				E9A19E6320BE252C00037687 /* FloorplanOverlayRenderer.swift in Sources */,
 				E9A19E6120BE252C00037687 /* Utilities.swift in Sources */,
+				A346C7F220BE59B400DE4CD0 /* rental.swift in Sources */,
+				A346C7F420BE618500DE4CD0 /* PolyRentsViewController.swift in Sources */,
 				E9A19E5E20BE252C00037687 /* FloorplanOverlay.swift in Sources */,
 				A394A7DB20A4BC90006E1F82 /* AppDelegate.swift in Sources */,
 			);
