@@ -52,6 +52,7 @@ class ChartViewController: UIViewController {
             dataEntries.append(dataEntry)
         }
         
+        
         let chartDataSet = BarChartDataSet(values: dataEntries, label: "Hour")
         let chartData = BarChartData()
         chartData.addDataSet(chartDataSet)
