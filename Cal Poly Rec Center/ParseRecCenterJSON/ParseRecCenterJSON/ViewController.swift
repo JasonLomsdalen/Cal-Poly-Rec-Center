@@ -61,21 +61,18 @@ class ViewController: UIViewController {
         task.resume()
     }
     func uploadDailyAveragesToFirebase() {
-        print ("test1")
+       
         let session = URLSession(configuration: URLSessionConfiguration.default)
-        print ("test2")
+       
         let request = URLRequest(url: URL(string: dailyAvg)!)
-        print ("test3")
+        
         let task: URLSessionDataTask = session.dataTask(with: request)
         { (receivedData, response, error) -> Void in
-            print ("test4")
             if let data = receivedData {
                 do {
                     let decoder = JSONDecoder()
                     let hourlyAvgService2 = try decoder.decode([HourlyAvg].self, from: data)
-                    print ("test5")
                    // self.ref = Database.database().reference().child("dailyhourlyAvg")
-                    print ("test6")
                     for item in hourlyAvgService2 {
                         // item.version = item.version?.replacingOccurrences(of: ".", with: "")
                         let schoolRef = self.ref?.child(item.version!)
